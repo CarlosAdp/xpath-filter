@@ -5,6 +5,6 @@ __url__ = 'https://github.com/CarlosAdp/xpath-filter'
 __license__ = 'Apache License 2.0'
 __description__ = 'XPath filter of HTML files'
 __keywords__ = 'xpath html scraping webscraping scraper webscraper'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 from .xpath_filter import xpath_filter  # noqa

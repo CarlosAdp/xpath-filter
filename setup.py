@@ -11,7 +11,8 @@ setup(
     author=__author__,
     author_email=__email__,
     description=__description__,
-    long_description=open(Path(__file__).parent / "README.md").read(),
+    long_description=open(Path(__file__).parent / 'README.md').read(),
+    long_description_content_type='text/markdown',
     license=__license__,
     url=__url__,
     keywords=__keywords__,
@@ -27,7 +28,6 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: Implementation :: PyPy',
-        'Topic :: Web scraping',
         'Topic :: Text Processing :: Markup :: HTML'
     ],
     packages=['xpath_filter'],
