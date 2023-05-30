@@ -30,7 +30,8 @@ setup(
         'Topic :: Web scraping',
         'Topic :: Text Processing :: Markup :: HTML'
     ],
-    packages=['src'],
+    packages=['xpath_filter'],
+    package_dir={'xpath_filter': 'src'},
     install_requires=[
         'lxml',
         'PyYAML'
@@ -38,6 +39,10 @@ setup(
     extras_require={
         'test': [
             'pytest',
+        ],
+        'dev': [
+            'flake8',
+            'mypy'
         ]
     }
 )
