@@ -1,0 +1,8 @@
+__prog__ = 'xpath_filter'
+__author__ = 'Carlos Pinto'
+__email__ = 'carlos.adpinto@gmail.com'
+__url__ = 'https://github.com/CarlosAdp/xpath-filter'
+__license__ = ''
+__description__ = 'XPath filter of HTML files'
+__keywords__ = 'xpath html scraping webscraping scraper webscraper'
+__version__ = '0.1.0'
