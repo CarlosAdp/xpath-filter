@@ -1,5 +1,7 @@
 # xpath-filter
 
+[![version](https://img.shields.io/badge/version-0.1.0-blue)](https://pypi.org/project/xpath-filter)
+
 Filter HTML files using xpath mappings.
 
 ## Installation
