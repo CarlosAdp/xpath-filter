@@ -1,6 +1,7 @@
 # xpath-filter
 
 [![version](https://img.shields.io/badge/version-0.1.0-blue)](https://pypi.org/project/xpath-filter)
+[![tests](https://img.shields.io/badge/tests-passed-green)](tests/test_xpath_filter.py)
 
 Filter HTML files using xpath mappings.
 
