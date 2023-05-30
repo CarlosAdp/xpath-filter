@@ -1,6 +1,6 @@
 # xpath-filter
 
-[![version](https://img.shields.io/badge/version-1.0.0-blue)](https://pypi.org/project/xpath-filter)
+[![version](https://img.shields.io/badge/version-1.0.1-blue)](https://pypi.org/project/xpath-filter)
 [![tests](https://img.shields.io/badge/tests-passed-green)](tests/test_xpath_filter.py)
 
 Filter HTML files using xpath mappings.
@@ -47,7 +47,7 @@ File at "xpaths.yml":
 ```yml
 article:
     xpath: //div[@class="article"]
-    matches: first
+    matches: all
     elements:
         author: './@data-author'
         content: ./p/text()
