@@ -1,0 +1,22 @@
+name: CI
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup python
+        uses: actions/setup-python@v2
+      - name: install xpath-filter
+        run:  pip install xpath-filter
+      - name: install pytest
+        run: pip install pytest
+      - name: Run unit tests
+        run: python -m pytest
+     
+    
